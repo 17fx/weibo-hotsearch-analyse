@@ -1,3 +1,2 @@
-# weibo-hotsearch-history
-It is used to record the hotsearch of Weibo
-用于记录微博热搜
+# 微博热搜历史记录分析
+用于记录分析微博热搜
