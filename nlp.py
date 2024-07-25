@@ -15,7 +15,7 @@ def loadfile(path='raw/2021-03-17.json'):
 
     f = open(path,'r+',encoding='utf8')
     data = json.load(f)
-    f.close
+    f.close()
 
     all_hot = [ title['title'] for title in data]
     
