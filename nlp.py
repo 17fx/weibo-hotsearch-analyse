@@ -8,7 +8,7 @@ from tencentcloud.nlp.v20190408 import nlp_client, models
 
 #填入腾讯云密钥
 SecretId = ''
-ecretKey =  ''
+SecretKey =  ''
 
 #打开raw目录下文件
 def loadfile(path='raw/2021-03-17.json'):
@@ -23,7 +23,7 @@ def loadfile(path='raw/2021-03-17.json'):
     
 def nlp_api(params):
     try:
-        cred = credential.Credential(SecretId,ecretKey)
+        cred = credential.Credential(SecretId,SecretKey)
         
         httpProfile = HttpProfile()
         httpProfile.endpoint = "nlp.tencentcloudapi.com"
